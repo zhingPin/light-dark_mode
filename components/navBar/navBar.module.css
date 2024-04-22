@@ -1,0 +1,126 @@
+.navBar_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background-color);
+  color: var(--text-color);
+  padding: 15px 3%;
+  transition: 0.5s;
+  position: relative;
+}
+
+.logo {
+  /* border: 1px solid blue; */
+  cursor: pointer;
+}
+
+.navBar_container ul {
+  /* flex: 1; */
+  list-style: none;
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+
+.navBar_container ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  /* border: 1px solid blue; */
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  background: #242424;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.searchBar input {
+  padding: 6px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 18px;
+  max-width: 200px;
+}
+
+.searchBar input::placeholder {
+  color: #fff;
+}
+
+.searchBar img {
+  cursor: pointer;
+}
+
+.theme_icon {
+  cursor: pointer;
+  /* margin-left: 40px; */
+  font-size: 50px;
+  /* border: 1px solid blue; */
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  /* left: 0; */
+  background: var(--menu-color);
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* width: 9%; */
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown ul li {
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  background: #242424;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+.dark .searchBar {
+  background: #fff;
+}
+
+.searchBar input {
+  padding: 6px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 18px;
+  max-width: 200px;
+  /* border: 1px solid var(--text-color); */
+}
+
+.dark .searchBar input {
+  background: #fff;
+}
+.searchBar input::placeholder {
+  color: #fff;
+}
+
+.dark .searchBar input::placeholder {
+  color: #000;
+}
+
+.searchBar img {
+  cursor: pointer;
+}
